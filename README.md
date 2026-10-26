@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# SupplyPrescript
-=======
 # Supply Prescript
 
 Supply chain data exploration and analysis project.
@@ -25,4 +22,4 @@ python data/check_dataset.py
 ## Notes
 
 This project is intended for exploratory analysis of the supply chain dataset and can be extended with cleaning, feature engineering, and modeling steps.
->>>>>>> 6c1802b (Initial project setup)
+
