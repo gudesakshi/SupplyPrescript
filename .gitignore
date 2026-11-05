@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -219,18 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-=======
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.venv/
-venv/
-.env
-.env.*
-.ipynb_checkpoints/
-.DS_Store
-.idea/
-.vscode/
-*.log
->>>>>>> 6c1802b (Initial project setup)
+# Generated analysis output
+data/processed/*.csv

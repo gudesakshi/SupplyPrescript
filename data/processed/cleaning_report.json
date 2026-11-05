@@ -1,0 +1,44 @@
+{
+  "source_file": "C:\\Users\\sarthak\\Desktop\\SupplyPrescript\\data\\archive\\DataCoSupplyChainDataset.csv",
+  "cleaned_file": "C:\\Users\\sarthak\\Desktop\\SupplyPrescript\\data\\processed\\cleaned_supply_chain.csv",
+  "source_shape": {
+    "rows": 180519,
+    "columns": 53
+  },
+  "cleaned_shape": {
+    "rows": 180519,
+    "columns": 43
+  },
+  "exact_duplicate_rows_removed": 0,
+  "duplicate_order_item_ids": 0,
+  "missing_values_before": {
+    "Customer Lname": 8,
+    "Customer Zipcode": 3,
+    "Order Zipcode": 155679,
+    "Product Description": 180519
+  },
+  "missing_values_after": 0,
+  "removed_columns_and_reasons": {
+    "Product Description": "entirely empty in the source dataset",
+    "Order Zipcode": "86.2% missing and not needed for the planned analysis",
+    "Customer Zipcode": "direct customer location identifier; use broader geography instead",
+    "Customer Email": "personally identifying information not needed for analysis",
+    "Customer Fname": "personally identifying information not needed for analysis",
+    "Customer Lname": "personally identifying information not needed for analysis",
+    "Customer Password": "sensitive information not needed for analysis",
+    "Customer Street": "personally identifying information not needed for analysis",
+    "Product Image": "image URL not needed for tabular analysis",
+    "Product Status": "constant column with no variation in the source dataset"
+  },
+  "text_values_trimmed_by_column": {
+    "Category Name": 1475,
+    "Department Name": 362,
+    "Order Region": 17925,
+    "Product Name": 1774
+  },
+  "date_columns_converted": [
+    "order date (DateOrders)",
+    "shipping date (DateOrders)"
+  ],
+  "validation": "passed"
+}
